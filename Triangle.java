@@ -26,11 +26,11 @@ public class Triangle implements Formes {
 
     @Override
     public double perimetre() {
-        return a + b + base;
+        return( a + b + base);
     }
 
     public static void main(String[] args) {
-        Triangle tri = new Triangle(2.0, 3.5, 1.0, 1.5);
+        Triangle tri = new Triangle(3.0, 4.5, 2.0, 2.5);
 
         System.out.println(tri.air());
         System.out.println(tri.perimetre());
